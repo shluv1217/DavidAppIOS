@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 //        view.layer.addSublayer(previewLayer)
 //        previewLayer.frame = view.frame
         
-        let url = URL(string: "http://49.173.109.163:3000")
+        let url = URL(string: "http://localhost:3000")
         let request = URLRequest(url: url!)
 
         webview.load(request)
